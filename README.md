@@ -57,10 +57,3 @@ Source: [IMDb Datasets](https://www.imdb.com/interfaces/)
   - `title.principals.tsv`
   - `title.ratings.tsv`
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-**Your Name**  
-Final Year IT Student  
-[Your LinkedIn Profile](https://www.linkedin.com) | [Your GitHub](https://github.com)
