@@ -183,4 +183,23 @@
     "version" : "Latest",
     "type" : "schema"
   } ]
+}, {
+  "baseItem" : {
+    "id" : "_wYbqQK8AEe-B4MpD2b-Meg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_soAM8K79Ee-B4MpD2b-Meg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_8H7kcK6WEe-lDsS6LQIekQ - movies",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_soAM8K79Ee-B4MpD2b-Meg - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
 } ]
