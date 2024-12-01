@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VWpEkK_UEe-FdMyigqNGZw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VWpEka_UEe-FdMyigqNGZw" bindingContexts="_VWpEmq_UEe-FdMyigqNGZw">
   <tags>activeSchemeId:org.talend.core.scheme</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_VWpEka_UEe-FdMyigqNGZw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VrWwUa_UEe-FdMyigqNGZw" x="1166" y="282" width="1000" height="750">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_VWpEka_UEe-FdMyigqNGZw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_VrWwUa_UEe-FdMyigqNGZw" x="1178" y="222" width="1000" height="750">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -9,7 +9,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_VrWwUa_UEe-FdMyigqNGZw" selectedElement="_VrWwUq_UEe-FdMyigqNGZw" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_VrWwUq_UEe-FdMyigqNGZw" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_Vx75cK_UEe-FdMyigqNGZw">
         <children xsi:type="advanced:Perspective" xmi:id="_Vx75cK_UEe-FdMyigqNGZw" elementId="org.talend.rcp.perspective" selectedElement="_Vx75ca_UEe-FdMyigqNGZw" label="Integration" iconURI="platform:/plugin/org.talend.core/icons/process_icon.png">
@@ -2321,7 +2320,7 @@
   <addons xmi:id="_VWpEpq_UEe-FdMyigqNGZw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_VWpEp6_UEe-FdMyigqNGZw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_VW144K_UEe-FdMyigqNGZw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_w81vEK_VEe-OycCMqlL1Og" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_VXuCoK_UEe-FdMyigqNGZw" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_VXuCoa_UEe-FdMyigqNGZw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

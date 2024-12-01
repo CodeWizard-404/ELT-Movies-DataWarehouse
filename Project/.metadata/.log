@@ -1146,3 +1146,6 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 2 0 2024-12-01 12:17:01.701
 !MESSAGE 2024-12-01 12:17:01,700 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP_2_3
 
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-01 12:22:02.048
+!MESSAGE The workspace will exit with unsaved changes in this session.
