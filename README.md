@@ -26,10 +26,6 @@ This project demonstrates the end-to-end process of building a **Data Warehouse*
 - **Visualization Tool**: Power BI
 - **Source Data**: IMDb datasets in TSV format
 
-## Directory Structure
-/ETL_Jobs - Talend jobs for ETL processes. /PowerBI_Dashboard - Power BI dashboard file and screenshots. /SQL_Scripts - SQL scripts for table creation and data loading. /Source_Data - IMDb raw data files. /README.md - Project documentation.
-
-
 ## Getting Started
 1. **Prerequisites**:
    - Install [Talend Open Studio](https://www.talend.com/products/talend-open-studio/).
