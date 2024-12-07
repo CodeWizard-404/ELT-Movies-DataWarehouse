@@ -11,7 +11,7 @@
   <groupId>org.example.movies.bean</groupId>
   <artifactId>beans</artifactId>
   <version>8.0.1</version>
-  <name>MOVIES Beans</name>
+  <name>MOVIES_V2 Beans</name>
   <properties>
     <talend.codes.package>beans</talend.codes.package>
     <maven.compiler.failOnError>${codes.compile.failOnError}</maven.compiler.failOnError>
