@@ -1,5 +1,6 @@
 # **ELT Movies Data Warehouse & Analysis Project** 🎬📊
 
+
 ## **Project Overview**
 Welcome to the **ELT Movies Data Warehouse and Analysis** project, where data meets cinema! This project demonstrates the entire process of building a data warehouse for movie data, optimized for insightful analysis. By employing **ETL (Extract, Transform, Load)** practices, we transform raw movie data from **IMDb** into actionable insights through a structured database. Visualizations powered by **Power BI** bring these insights to life with interactive and dynamic dashboards.
 
