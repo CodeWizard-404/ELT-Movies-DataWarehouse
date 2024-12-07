@@ -351,24 +351,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 			return this.row5;
 		}
 
-		public String row6;
-
-		public String getRow6() {
-			return this.row6;
-		}
-
-		public String row7;
-
-		public String getRow7() {
-			return this.row7;
-		}
-
-		public String row8;
-
-		public String getRow8() {
-			return this.row8;
-		}
-
 		private String readString(ObjectInputStream dis) throws IOException {
 			String strReturn = null;
 			int length = 0;
@@ -449,12 +431,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 					this.row5 = readString(dis);
 
-					this.row6 = readString(dis);
-
-					this.row7 = readString(dis);
-
-					this.row8 = readString(dis);
-
 				} catch (IOException e) {
 					throw new RuntimeException(e);
 
@@ -483,12 +459,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 					this.row4 = readString(dis);
 
 					this.row5 = readString(dis);
-
-					this.row6 = readString(dis);
-
-					this.row7 = readString(dis);
-
-					this.row8 = readString(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
@@ -526,18 +496,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 				writeString(this.row5, dos);
 
-				// String
-
-				writeString(this.row6, dos);
-
-				// String
-
-				writeString(this.row7, dos);
-
-				// String
-
-				writeString(this.row8, dos);
-
 			} catch (IOException e) {
 				throw new RuntimeException(e);
 			}
@@ -571,18 +529,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 				writeString(this.row5, dos);
 
-				// String
-
-				writeString(this.row6, dos);
-
-				// String
-
-				writeString(this.row7, dos);
-
-				// String
-
-				writeString(this.row8, dos);
-
 			} catch (IOException e) {
 				throw new RuntimeException(e);
 			}
@@ -600,9 +546,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 			sb.append(",row3=" + row3);
 			sb.append(",row4=" + row4);
 			sb.append(",row5=" + row5);
-			sb.append(",row6=" + row6);
-			sb.append(",row7=" + row7);
-			sb.append(",row8=" + row8);
 			sb.append("]");
 
 			return sb.toString();
@@ -676,7 +619,7 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 				String fileName_tFileOutputDelimited = "";
 				fileName_tFileOutputDelimited = (new java.io.File(
-						"C:/Users/Kayto/Desktop/IT/CODE/ISET/3_DSI/S1/DB/Talend TP/MOVIES/temp/preview/title.basics.csv"))
+						"C:/Users/Kayto/Desktop/IT/Projects/ISET/ELT-Movies-DataWarehouse/Project/MOVIES/temp/preview/name.basics.csv"))
 								.getAbsolutePath().replace("\\", "/");
 				String fullName_tFileOutputDelimited = null;
 				String extension_tFileOutputDelimited = null;
@@ -709,7 +652,7 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 				boolean isFileGenerated_tFileOutputDelimited = true;
 				java.io.File filetFileOutputDelimited = new java.io.File(fileName_tFileOutputDelimited);
 				globalMap.put("tFileOutputDelimited_FILE_NAME", fileName_tFileOutputDelimited);
-				String[] headColutFileOutputDelimited = new String[9];
+				String[] headColutFileOutputDelimited = new String[6];
 				class CSVBasicSet_tFileOutputDelimited {
 					private char field_Delim;
 					private char row_Delim;
@@ -826,7 +769,7 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 				}
 				CsvWritertFileOutputDelimited = new com.talend.csv.CSVWriter(
 						new java.io.BufferedWriter(new java.io.OutputStreamWriter(
-								new java.io.FileOutputStream(fileName_tFileOutputDelimited, false), "UTF-8")));
+								new java.io.FileOutputStream(fileName_tFileOutputDelimited, false), "US-ASCII")));
 				CsvWritertFileOutputDelimited.setSeparator(csvSettings_tFileOutputDelimited.getFieldDelim());
 				if (csvSettings_tFileOutputDelimited.isUseCRLFRecordDelimiter()) {
 					CsvWritertFileOutputDelimited.setLineEnd("\r\n");
@@ -884,7 +827,7 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 				}
 
 				Object filename_tFileInputDelimited = /** Start field tFileInputDelimited:FILENAME */
-						"C:/Users/Kayto/Desktop/IT/CODE/ISET/3_DSI/S1/DB/IMDB_DataSet/title.basics.tsv"/**
+						"C:/Users/Kayto/Desktop/IT/CODE/ISET/3_DSI/S1/DB/IMDB_DataSet/name.basics.tsv"/**
 																										 * End field
 																										 * tFileInputDelimited:FILENAME
 																										 */
@@ -907,11 +850,11 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 							csvReadertFileInputDelimited = new com.talend.csv.CSVReader(
 									(java.io.InputStream) filename_tFileInputDelimited,
-									fieldSeparator_tFileInputDelimited[0], "UTF-8");
+									fieldSeparator_tFileInputDelimited[0], "US-ASCII");
 						} else {
 							csvReadertFileInputDelimited = new com.talend.csv.CSVReader(
 									String.valueOf(filename_tFileInputDelimited), fieldSeparator_tFileInputDelimited[0],
-									"UTF-8");
+									"US-ASCII");
 						}
 
 						csvReadertFileInputDelimited.setTrimWhitespace(false);
@@ -950,11 +893,11 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 							if (filename_tFileInputDelimited instanceof java.io.InputStream) {
 								csvReadertFileInputDelimited = new com.talend.csv.CSVReader(
 										(java.io.InputStream) filename_tFileInputDelimited,
-										fieldSeparator_tFileInputDelimited[0], "UTF-8");
+										fieldSeparator_tFileInputDelimited[0], "US-ASCII");
 							} else {
 								csvReadertFileInputDelimited = new com.talend.csv.CSVReader(
 										String.valueOf(filename_tFileInputDelimited),
-										fieldSeparator_tFileInputDelimited[0], "UTF-8");
+										fieldSeparator_tFileInputDelimited[0], "US-ASCII");
 							}
 							csvReadertFileInputDelimited.setTrimWhitespace(false);
 							if ((rowSeparator_tFileInputDelimited[0] != '\n')
@@ -1034,12 +977,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 								Row.row5 = null;
 
-								Row.row6 = null;
-
-								Row.row7 = null;
-
-								Row.row8 = null;
-
 							} else {
 
 								int columnIndexWithD_tFileInputDelimited = 0; // Column Index
@@ -1116,42 +1053,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 								}
 
-								columnIndexWithD_tFileInputDelimited = 6;
-
-								if (columnIndexWithD_tFileInputDelimited < rowtFileInputDelimited.length) {
-
-									Row.row6 = rowtFileInputDelimited[columnIndexWithD_tFileInputDelimited];
-
-								} else {
-
-									Row.row6 = null;
-
-								}
-
-								columnIndexWithD_tFileInputDelimited = 7;
-
-								if (columnIndexWithD_tFileInputDelimited < rowtFileInputDelimited.length) {
-
-									Row.row7 = rowtFileInputDelimited[columnIndexWithD_tFileInputDelimited];
-
-								} else {
-
-									Row.row7 = null;
-
-								}
-
-								columnIndexWithD_tFileInputDelimited = 8;
-
-								if (columnIndexWithD_tFileInputDelimited < rowtFileInputDelimited.length) {
-
-									Row.row8 = rowtFileInputDelimited[columnIndexWithD_tFileInputDelimited];
-
-								} else {
-
-									Row.row8 = null;
-
-								}
-
 							}
 
 							if (rowstate_tFileInputDelimited.getException() != null) {
@@ -1203,16 +1104,13 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 
 							currentComponent = "tFileOutputDelimited";
 
-							String[] rowtFileOutputDelimited = new String[9];
+							String[] rowtFileOutputDelimited = new String[6];
 							rowtFileOutputDelimited[0] = Row.row0 == null ? null : Row.row0;
 							rowtFileOutputDelimited[1] = Row.row1 == null ? null : Row.row1;
 							rowtFileOutputDelimited[2] = Row.row2 == null ? null : Row.row2;
 							rowtFileOutputDelimited[3] = Row.row3 == null ? null : Row.row3;
 							rowtFileOutputDelimited[4] = Row.row4 == null ? null : Row.row4;
 							rowtFileOutputDelimited[5] = Row.row5 == null ? null : Row.row5;
-							rowtFileOutputDelimited[6] = Row.row6 == null ? null : Row.row6;
-							rowtFileOutputDelimited[7] = Row.row7 == null ? null : Row.row7;
-							rowtFileOutputDelimited[8] = Row.row8 == null ? null : Row.row8;
 							nb_line_tFileOutputDelimited++;
 							resourceMap.put("nb_line_tFileOutputDelimited", nb_line_tFileOutputDelimited);
 							CsvWritertFileOutputDelimited.writeNext(rowtFileOutputDelimited);
@@ -1703,6 +1601,6 @@ public class ShadowFileInputToDelimitedOutput implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 57882 characters generated by Talend Open Studio for Data Integration on the
- * November 30, 2024 at 12:17:55 PM CET
+ * 55330 characters generated by Talend Open Studio for Data Integration on the
+ * December 5, 2024 at 9:41:28 PM CET
  ************************************************************************************************/

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_NZPuILMfEe-T0eb_9VOD3g" name="TMDB_IMDB_Movies" dataPackage="_NZQVMLMfEe-T0eb_9VOD3g" Server="Localhost 127.0.0.1" FilePath="C:/Users/Kayto/Desktop/IT/CODE/ISET/3_DSI/S1/DB/IMDB_DataSet/TMDB  IMDB Movies Dataset.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_NZQVMLMfEe-T0eb_9VOD3g" name="default" dataManager="_NZPuILMfEe-T0eb_9VOD3g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NZQVMbMfEe-T0eb_9VOD3g" id="_Hbl5YLMeEe-T0eb_9VOD3g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVMrMfEe-T0eb_9VOD3g" label="id" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVM7MfEe-T0eb_9VOD3g" label="title" length="54" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVNLMfEe-T0eb_9VOD3g" label="vote_average" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVNbMfEe-T0eb_9VOD3g" label="vote_count" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVNrMfEe-T0eb_9VOD3g" label="status" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVN7MfEe-T0eb_9VOD3g" label="release_date" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVOLMfEe-T0eb_9VOD3g" label="revenue" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVObMfEe-T0eb_9VOD3g" label="runtime" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVOrMfEe-T0eb_9VOD3g" label="adult" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVO7MfEe-T0eb_9VOD3g" label="backdrop_path" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVPLMfEe-T0eb_9VOD3g" label="budget" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVPbMfEe-T0eb_9VOD3g" label="homepage" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVPrMfEe-T0eb_9VOD3g" label="tconst" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVP7MfEe-T0eb_9VOD3g" label="original_language" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVQLMfEe-T0eb_9VOD3g" label="original_title" length="54" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVQbMfEe-T0eb_9VOD3g" label="overview" length="772" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVQrMfEe-T0eb_9VOD3g" label="popularity" length="7" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVQ7MfEe-T0eb_9VOD3g" label="poster_path" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVRLMfEe-T0eb_9VOD3g" label="tagline" length="86" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVRbMfEe-T0eb_9VOD3g" label="genres" length="44" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVRrMfEe-T0eb_9VOD3g" label="production_companies" length="131" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVR7MfEe-T0eb_9VOD3g" label="production_countries" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVSLMfEe-T0eb_9VOD3g" label="spoken_languages" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVSbMfEe-T0eb_9VOD3g" label="keywords" length="448" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVSrMfEe-T0eb_9VOD3g" label="directors" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVS7MfEe-T0eb_9VOD3g" label="writers" length="167" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVTLMfEe-T0eb_9VOD3g" label="averageRating" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVTbMfEe-T0eb_9VOD3g" label="numVotes" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NZQVTrMfEe-T0eb_9VOD3g" label="cast" length="166" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
